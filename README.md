@@ -3,48 +3,28 @@
 ## Description
 This project contains technical code challenge for QA Engineer interview. Implementation made with `Cypress` by 'Michal Kmiecik'.
 
-The files and folders are structured already and the `spec` files already contain skeleton code with **fill-in areas** (marked with `// type your code here...`), where the challenge's solution is expected to be filled in.
-
 <img src="./assets/exercise.png" />
 
-Each exercise/question has a difficulty level marker from the following list: 1️⃣ | 2️⃣ | 3️⃣ | 4️⃣ 
-✨ Tricky or extra (harder) questions are marked with this symbol.
-
-While providing implementations, please fill in the right place in the code (or at least try).
-
-```js
-// 1️⃣  Verify bookmarks
-// ====================================
-
-    // type your code here...
-
-// ====================================
-```
-
-```js
-// 2️⃣  Search for no results
-// ====================================
-
-    mycode.doSomeLoginMagic();
-
-// ====================================
-```
-
-```js
-// 3️⃣  Fill the contact form
-// ====================================
-
-    mycode.doSomeLoginMagic();
-
-// ====================================
-```
-
+Scope of exercises won't be mentioned here, because it is confidential
 
 ## Prerequisites
 
-- install NodeJs latest LTS version
-- `npm ci` to install the project dependencies //npm i?
+- install NodeJs latest LTS version / Node 16 is ok as well
+- `npm i` to install the project dependencies 
 
 ## Commands
 
-- run tests in cypress: `npm run cypress`
+- open tests in cypress visual console: `npx cypress open`
+- choose E2E 
+
+<img src="./assets/cy1.png" width="600"/>
+
+- choose one of browsers installed on your local env (chrome preferred) and then click start tests
+
+<img src="./assets/cy2.png" width="600"/>
+
+- open any of tests to verify they work - you can time travel over all the steps, to learn how to do that, please see the cypress documentation
+
+<img src="./assets/cy3.png" width="600"/>
+
+- this readme has been done on my local and the flow has't been checked on any other devices. Therefore in case of any problems with running the script - please contact me directly, e.g. on mail (kmichalck@gmail.com)

@@ -21,6 +21,7 @@
     "inlineSources": false,
     "module": "esnext",
     "allowJs": true,
+    "baseUrl": "https://mostly.ai"
   },
   "include": ["**/*.ts", "**/*.js"],
   "exclude": ["../node_modules"]
